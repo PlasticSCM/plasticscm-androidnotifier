@@ -35,24 +35,23 @@ $ cm addtrigger after-mkbranch "GoogleCloudBranch" "python /opt/triggers/cloud_t
 
 Remember that you can change them in the code, these are the current keywords.
 
-- %{USER}: the user who started the operation in the client.
-- %{CLIENTMACHINE}: the client machine in which the operation was started.
-- %{SERVER}: the hostname of the PlasticSCM server.
-- %{COMMENT}: the comment given at the following operations:
+- `%{USER}`: the user who started the operation in the client.
+- `%{CLIENTMACHINE}`: the client machine in which the operation was started.
+- `%{SERVER}`: the hostname of the PlasticSCM server.
+- `%{COMMENT}`: the comment given at the following operations:
     - Branch creation.
     - Label creation.
     - Checkin operation.
-- %{BRANCH}: the partial name of the branch that is being created.
-- %{FULLBRANCH}: the full name of the branch that is being created.
-- %{REPNAME}: the repository name.
-- %{REPID}: the repository ID.
-- %{LABEL}: the label name.
-- %{ATTR}: the name of the attribute that is being created (not its value!)
-- %{WKSPACENAME}: the name of the workspace.
-- %{WKSPACEPATH}: the path of the workspace.
-- %{UPDATEPATH}: 
-- %{REVIEWTITLE}: the title of the new code review.
-- %{REVIEWSTATUS}: the status of a code review.
-- %{REVIEWASGINEE}: the asignee of a code review.
-- %{REVIEWTARGET}: the specification of the target of a code review.
-- %{REVIEWTARGETTYPE}: the type of object of the code review target.
+- `%{BRANCH}`: the partial name of the branch that is being created.
+- `%{FULLBRANCH}`: the full name of the branch that is being created.
+- `%{REPNAME}`: the repository name.
+- `%{REPID}`: the repository ID.
+- `%{LABEL}`: the label name.
+- `%{ATTR}`: the name of the attribute that is being created (not its value!)
+- `%{WKSPACENAME}`: the name of the workspace.
+- `%{WKSPACEPATH}`: the path of the workspace.
+- `%{REVIEWTITLE}`: the title of the new code review.
+- `%{REVIEWSTATUS}`: the status of a code review.
+- `%{REVIEWASGINEE}`: the asignee of a code review.
+- `%{REVIEWTARGET}`: the specification of the target of a code review.
+- `%{REVIEWTARGETTYPE}`: the type of object of the code review target.
