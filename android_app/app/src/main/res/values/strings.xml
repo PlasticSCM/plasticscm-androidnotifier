@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PlasticSCM Notifier</string>
+    <string name="click_to_copy">Click to copy to clipboard</string>
+    <string name="copied_to_clipboard">GCM ID copied to clipboard!</string>
+    <string name="retrieving_gcm_id">Retrieving GCM ID…</string>
+    
+    <string name="gcm_default_sender_id">012345678901</string>
+</resources>

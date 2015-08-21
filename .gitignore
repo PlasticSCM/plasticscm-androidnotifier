@@ -71,3 +71,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+post_web.html
+post_web.pdf
+gcm_post.md
+.plastic/plastic.selector
+.plastic/plastic.wktree
+.plastic/plastic.workspace
